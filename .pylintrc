@@ -1,0 +1,10 @@
+[MASTER]
+disable=bad-continuation, # Let python-black take care of indentation.
+    unsubscriptable-object  # False-positive on the type hinting: OrderedDict[K, V].
+
+[SIMILARITIES]
+# Minimum lines number of a similarity.
+min-similarity-lines=20
+
+# Ignore imports when computing similarities.
+ignore-imports=yes

@@ -1,0 +1,6 @@
+[flake8]
+ignore =
+       # Let black take care of line-length.
+       E501,
+       # Let black take care of line-break.
+       W503
